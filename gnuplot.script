@@ -1,0 +1,17 @@
+# Fonts are tiny, small, medium, large, giant
+#set term dumb
+set ylabel "Entropy" font "giant"
+set xlabel "Group Entropy" font "giant"
+set datafile sep ','
+#plot "plot.data" using 3:5 with points title "My Plot"
+
+#print GPVAL_TERMINALS
+#set terminal png medium
+set terminal pngcairo font ",6"
+set output 'plot.png'
+set pointsize 0.25
+set label 5 font "tiny" textcolor rgb "#333333"
+#plot "plot.data" using 3:5:1 with labels point offset 1 textcolor rgb "red" font "tiny"
+plot "plot.data" using 5:3:4 with labels point offset -1,0 textcolor rgb "red" font "tiny" notitle, "plot.data" using 5:3:1 with labels point offset 2,0 textcolor rgb "red" font "tiny" notitle
+#plot "plot.data" using 3:5:2 pointtype 3 pointsize 4 with labels point offset -1,0 textcolor rgb "red" font "tiny", "plot.data" using 3:5:1 pointtype 3 pointsize 4 with labels point offset 1,0 textcolor rgb "red" font "tiny" 
+
