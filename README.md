@@ -19,3 +19,12 @@ It is provided on this github page in case people find it of value.
 To Compile:
 
 gfortran -o gent gent.for
+
+To run:
+
+gent
+
+Plotting results: 
+
+The file gnuplot.script worked with gnuplot to plot output (plot.data) into a PNG file (plot.png) from the gent program.
+ 
