@@ -1,5 +1,5 @@
 # GeNT
-GeNT is a FORTRAN program that was originally written by Hugh Nicholas at the Pittsburgh Supercomputing Center. Specifically: 
+GeNT is a FORTRAN program that was originally written by Hugh Nicholas at the Pittsburgh Supercomputing Center. It is provided on this github page for people that still find it of value. Here is what the code does:  
 
        This program computes the cross entropy for groups of sequences
        that have been assigned to groups on the basis of biochemical,
@@ -14,17 +14,17 @@ GeNT is a FORTRAN program that was originally written by Hugh Nicholas at the Pi
        entropy for the entire alignment and a high entropy for one or
        more specific groups.
 
-It is provided on this github page in case people find it of value. 
+ 
 
-To Compile:
+**To Compile:**
 
 gfortran -o gent gent.for
 
-To run:
+**To run:**
 
 gent
 
-Plotting results: 
+**Plotting results:** 
 
 The file gnuplot.script worked with gnuplot to plot output (plot.data) into a PNG file (plot.png) from the gent program.
  
