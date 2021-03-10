@@ -64,5 +64,5 @@ gent
 
 **Plotting results:** 
 
-The file gnuplot.script worked with gnuplot to plot output (plot.data) into a PNG file (plot.png) from the gent program.
+The file gnuplot.script worked with gnuplot to plot program output (plot.data) into a PNG file (plot.png).
  
