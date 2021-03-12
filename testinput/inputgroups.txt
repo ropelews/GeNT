@@ -1,0 +1,17 @@
+Problem pa2
+Title PA2
+Group one
+BAA01568 
+CAA48457 
+//
+Group two
+CAA53921 
+CAA37567 
+CAA11159
+//
+Group three
+CAA35909
+AAA66029
+BAF30486
+BAB20041
+//
