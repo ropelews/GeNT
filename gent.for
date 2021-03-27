@@ -2440,7 +2440,7 @@ C
       Else
          Write( OutFl, 8 )  AlnLen, SqTyp1(NSqTyp)
          Do 310 n = 1, NS, 1
-            Write( OutFl, 9 ), Name(n), LSN(n), n, SeqWt(n)
+            Write( OutFl, 9 ) Name(n), LSN(n), n, SeqWt(n)
   310       continue
          Write( OutFl, 10 )
          NBlock = ( AlnLen + 49 ) / 50
